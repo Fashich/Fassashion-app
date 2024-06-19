@@ -19,7 +19,7 @@
         background: linear-gradient(rgb(205, 205, 205), rgb(205, 205, 205), rgb(205, 205, 205));
     }
 </style>
-<link rel="icon" type="image/png" href="img/logo-fassashion.png">
+<link rel="icon" type="asset/img/png" href="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion">
 <body>
     <div class="container-welcome">
         <div class="image-container">
@@ -28,7 +28,7 @@
             <img src="container-banner-3.png" alt="banner-3" class="banner-3">
         </div>
         <div class="logo-fassashion">
-            <img src="{{asset('resources/img/logo-fassashion.png')}}" alt="logo-fassashion" width="150px" height="150px">
+            <img src="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion" width="150px" height="150px">
         </div>
         <div class="welcome-fassashion-title-text">
         <h1 class="welcome-fassashion-text">Welcome to Fassashion</h1>
