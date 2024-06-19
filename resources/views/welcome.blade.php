@@ -28,7 +28,7 @@
             <img src="container-banner-3.png" alt="banner-3" class="banner-3">
         </div>
         <div class="logo-fassashion">
-            <img src="{{ asset('resource/image/logo-fassashion.png') }}" alt="logo-fassashion" width="150px" height="150px">
+            <img src="{{asset('resources/img/logo-fassashion.png')}}" alt="logo-fassashion" width="150px" height="150px">
         </div>
         <div class="welcome-fassashion-title-text">
         <h1 class="welcome-fassashion-text">Welcome to Fassashion</h1>
