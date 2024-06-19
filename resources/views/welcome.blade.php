@@ -23,43 +23,44 @@
         border: 2px solid rgb(255, 0, 0);
         border-radius: 20px;
         position: relative;
-        background-image: url('img/background-wallpaper-whatsapp-chat.jpeg');
+        background-image: url('img/background-wallpaper-2.jpeg');
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
-        animation: 30s container-welcome ease infinite;
+        animation: 15s container-welcome ease infinite;
     }
     @keyframes container-welcome {
       0% {
-        transform: translate(10px, -10px)
-      }     
+        transform: translate(5px, -5px);
+      }
+
       10% {
-        transform: translate(-10px, 10px);
+        transform: translate(-5px, 5px);
     }
     20% {
-        transform: translate(10px, -10px);
+        transform: translate(5px, -5px);
     }
     30% {
-        transform: translate(-10px, 10px);
+        transform: translate(-5px, 5px);
     }
     40% {
-        transform: translate(10px, -10px);
+        transform: translate(5px, -5px);
     }
     50% {
-        transform: translate(-10px, 10px);
+        transform: translate(-5px, 5px);
     }
     60% {
-        transform: translate(10px, -10px);
+        transform: translate(5px, -5px);
     }
     70% {
-        transform: translate(-10px, 10px);
+        transform: translate(-5px, 5px);
     }
     80% {
-        transform: translate(10px, -10px);
+        transform: translate(5px, -5px);
     }
     90% {
-        transform: translate(-10px, 10px);
+        transform: translate(-5px, 5px);
     }
     100% {
-        transform: translate(10px, -10px);
+        transform: translate(5px, -5px);
     }
   }
     .image-container {
