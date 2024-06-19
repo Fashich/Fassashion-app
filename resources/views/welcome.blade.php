@@ -10,10 +10,11 @@
         padding: 0;
         margin: 0;
         background: linear-gradient(to right, rgb(0, 89, 255), rgb(4, 0, 255), rgb(105, 0, 255), rgb(230, 0, 255), rgb(235, 60, 255), rgb(240, 110, 255), rgb(247, 175, 255));
-        overflow-y: hidden;
-        overflow-x: hidden;
+        /* overflow-y: hidden;
+        overflow-x: hidden; */
     }
     .container-welcome {
+        position: relative;
         max-width: 100%;
         width: 800px;
         height: 485px;
@@ -22,9 +23,45 @@
         border: 2px solid rgb(255, 0, 0);
         border-radius: 20px;
         position: relative;
-        background: linear-gradient(rgb(205, 205, 205), rgb(205, 205, 205), rgb(205, 205, 205));
+        background-image: url('img/background-wallpaper-whatsapp-chat.jpeg');
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+        animation: 30s container-welcome ease infinite;
     }
+    @keyframes container-welcome {
+      0% {
+        transform: translate(10px, -10px)
+      }     
+      10% {
+        transform: translate(-10px, 10px);
+    }
+    20% {
+        transform: translate(10px, -10px);
+    }
+    30% {
+        transform: translate(-10px, 10px);
+    }
+    40% {
+        transform: translate(10px, -10px);
+    }
+    50% {
+        transform: translate(-10px, 10px);
+    }
+    60% {
+        transform: translate(10px, -10px);
+    }
+    70% {
+        transform: translate(-10px, 10px);
+    }
+    80% {
+        transform: translate(10px, -10px);
+    }
+    90% {
+        transform: translate(-10px, 10px);
+    }
+    100% {
+        transform: translate(10px, -10px);
+    }
+  }
     .image-container {
       display: flex;
       flex-direction: row;
@@ -48,18 +85,86 @@
       background-color: rgb(255, 255, 255);
       margin-left: 330px;
       max-width: 150px;
+      max-height: 150px;
       border-radius: 50%;
       top: -70px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     }
     .welcome-fassashion-title-text {
       position: relative;
-      margin-left: 185px;
-      top: -85px;
+      margin-left: 160px;
+      top: -75px;
+      background-image: url('img/background-kayu.jpg');
+      max-width: 430px;
+      height: 40px;
+      border-radius: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+      cursor: default;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     }
     .welcome-fassashion-text {
+      position: relative;
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       white-space: nowrap;
       letter-spacing: 5px;
+      -webkit-text-stroke: .5px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    .read-more {
+      position: relative;
+      text-decoration: none;
+      background-color: rgb(0, 215, 255);
+      color: rgb(255, 255, 255);
+      width: 110px;
+      height: 40px;
+      margin-left: 40px;
+      border-radius: 50px;
+      border: 1px solid rgb(0, 0, 0);
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      font-size: 20px;
+      top: -25px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+      -webkit-text-stroke: .5px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        white-space: nowrap;
+    }
+    .read-more:hover {
+      color: rgb(180, 180, 180);
+      background-color: rgb(85, 244, 255);
+    }
+    .visit-our-website {
+      position: relative;
+      text-decoration: none;
+      background-color: rgb(255, 0, 210);
+      color: rgb(255, 255, 255);
+      width: 110px;
+      height: 40px;
+      margin-left: 350px;
+      border-radius: 50px;
+      border: 1px solid rgb(0, 0, 0);
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      font-size: 20px;
+      top: -25px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+      -webkit-text-stroke: .5px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        white-space: nowrap;
+    }
+    .visit-our-website:hover {
+      color: rgb(180, 180, 180);
+      background-color: rgb(255, 104, 230);
     }
 </style>
 <link rel="icon" type="asset/img/png" href="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion">
@@ -75,10 +180,10 @@
         </div>
         <div class="welcome-fassashion-title-text">
         <h1 class="welcome-fassashion-text">Welcome to Fassashion</h1>
+  </div>
         <div class="container-button">
-        <a href="read-more-container.html" class="read-more">Read More <span class="elemen-panah-1"></span><span class="elemen-garis-1"></span></a>
-        <a href="visit-out-website-container.html" class="visit-our-website">Visit Our Website <span class="elemen-panah-2"></span></a>
-        </div>
+        <a href="read-more-container.html" class="read-more">Read More</a>
+        <a href="visit-out-website-container.html" class="visit-our-website">Visit Our Website</a>
         </div>
     </div>
     <div class="scroll-down-limit"></div>
