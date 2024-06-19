@@ -15,17 +15,60 @@
     }
     .container-welcome {
         max-width: 100%;
-        height: 135px;
+        width: 800px;
+        height: 485px;
+        margin-left: 210px;
+        margin-top: 80px;
+        border: 2px solid rgb(255, 0, 0);
+        border-radius: 20px;
+        position: relative;
         background: linear-gradient(rgb(205, 205, 205), rgb(205, 205, 205), rgb(205, 205, 205));
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    }
+    .image-container {
+      display: flex;
+      flex-direction: row;
+    }
+    .banner-1 {
+      width: 270px;
+      height: 250px;
+      border-top-left-radius: 20px;
+    }
+    .banner-2 {
+      width: 300px;
+      height: 250px;
+    }
+    .banner-3 {
+      width: 300px;
+      height: 250px;
+      border-top-right-radius: 20px;
+    }
+    .logo-fassashion {
+      position: relative;
+      background-color: rgb(255, 255, 255);
+      margin-left: 330px;
+      max-width: 150px;
+      border-radius: 50%;
+      top: -70px;
+    }
+    .welcome-fassashion-title-text {
+      position: relative;
+      margin-left: 185px;
+      top: -85px;
+    }
+    .welcome-fassashion-text {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      white-space: nowrap;
+      letter-spacing: 5px;
     }
 </style>
 <link rel="icon" type="asset/img/png" href="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion">
 <body>
     <div class="container-welcome">
         <div class="image-container">
-            <img src="container-banner-1.png" alt="banner-1" class="banner-1">
-            <img src="container-banner-2.png" alt="banner-2" class="banner-2">
-            <img src="container-banner-3.png" alt="banner-3" class="banner-3">
+            <img src="{{asset('img/sepatu.jpeg')}}" alt="banner-1" class="banner-1">
+            <img src="{{asset('img/setelan.jpeg')}}" alt="banner-2" class="banner-2">
+            <img src="{{asset('img/tas.jpeg')}}" alt="banner-3" class="banner-3">
         </div>
         <div class="logo-fassashion">
             <img src="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion" width="150px" height="150px">
