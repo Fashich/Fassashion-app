@@ -147,7 +147,7 @@
       color: rgb(255, 255, 255);
       width: 110px;
       height: 40px;
-      margin-left: 350px;
+      margin-left: 450px;
       border-radius: 50px;
       border: 1px solid rgb(0, 0, 0);
       padding-left: 10px;
@@ -167,6 +167,27 @@
       color: rgb(180, 180, 180);
       background-color: rgb(255, 104, 230);
     }
+    .scroll-down-limit {
+        width: 250px;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50px;
+        border: 2px solid rgb(0, 0, 0);
+        margin-top: 60px;
+        margin-left: 480px;
+    }
+    .container-elemen-1-a {
+        background-image: url('img/');
+    }
+    .container-elemen-2-b {
+        background-image: url('img/')
+    }
+    .container-elemen-3-c {
+        background-image: url('img/')
+    }
+    .container-elemen-4-d {
+        background-image: url('img/')
+    }
 </style>
 <link rel="icon" type="asset/img/png" href="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion">
 <body>
@@ -184,10 +205,22 @@
   </div>
         <div class="container-button">
         <a href="read-more-container.html" class="read-more">Read More</a>
-        <a href="visit-out-website-container.html" class="visit-our-website">Visit Our Website</a>
+        <a href="visit-out-website-container.html" class="visit-our-website">Visit Now</a>
         </div>
     </div>
     <div class="scroll-down-limit"></div>
+    <div class="container-elemen-1">
+        <img src="{{asset('img/t-shirt.png')}}" alt="container-elemen" class="container-elemen-1-a" width="250px" height="250px;">
+    </div>
+    <div class="container-elemen-2">
+        <img src="" alt="container-elemen" class="container-elemen-2-b">
+    </div>
+    <div class="container-elemen-3">
+        <img src="" alt="container-elemen" class="container-elemen-3-c">
+    </div>
+    <div class="container-elemen-4">
+        <img src="" alt="container-elemen" class="container-elemen-4-d">
+    </div>
     <script>
     if ('WebSocket' in window) {
       (function () {
