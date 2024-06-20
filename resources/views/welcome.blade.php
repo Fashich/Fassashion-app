@@ -78,7 +78,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
-
+        cursor: default;
     }
     .banner-2 {
         width: 300px;
@@ -89,6 +89,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
+        cursor: default;
     }
     .banner-3 {
         width: 300px;
@@ -100,6 +101,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
+        cursor: default;
     }
     .logo-fassashion {
         position: relative;
@@ -116,6 +118,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
+        cursor: default;
     }
     .welcome-fassashion-title-text {
         position: relative;
@@ -148,6 +151,7 @@
         font-weight: bold;
         color: rgb(222, 205, 180);
         user-select: none;
+        cursor: default;
     }
     .welcome-fassashion-text::selection {
         background: none;
@@ -251,6 +255,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
+        cursor: default;
     }
     @keyframes container-elemen-1 {
     0% {
@@ -314,6 +319,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
+        cursor: default;
     }
     @keyframes container-elemen-2 {
     0% {
@@ -382,6 +388,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
+        cursor: default;
     }
     @keyframes container-elemen-3 {
     0% {
@@ -450,6 +457,7 @@
         -moz-user-drag: none;
         -o-user-drag: none;
         -ms-user-drag: none;
+        cursor: default;
     }
     @keyframes container-elemen-4 {
     0% {
@@ -505,9 +513,15 @@
 <body>
     <div class="container-welcome">
         <div class="image-container">
+            <div class="image-display">
             <img src="{{asset('img/sepatu.jpeg')}}" alt="banner-1" class="banner-1" id="banner-1" draggable="false">
+</div>
+<div class="image-display">
             <img src="{{asset('img/setelan.jpeg')}}" alt="banner-2" class="banner-2" id="banner-2" draggable="false">
+            </div>
+            <div class="image-display">
             <img src="{{asset('img/tas.jpeg')}}" alt="banner-3" class="banner-3" id="banner-3" draggable="false">
+            </div>
         </div>
         <div class="logo-fassashion">
             <img src="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion" width="150px" height="150px" id="logo-fassashion" draggable="false">
