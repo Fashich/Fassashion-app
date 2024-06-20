@@ -9,7 +9,7 @@
     body {
         padding: 0;
         margin: 0;
-        background: linear-gradient(to right, rgb(62, 104, 189), rgb(71, 164, 204), rgb(119, 212, 202), rgb(227, 217, 195), rgb(222, 205, 180), rgb(207, 185, 155), rgb(255, 255, 255));
+        background: linear-gradient(to right, rgb(62, 104, 189), rgb(71, 164, 204), rgb(119, 212, 202), rgb(227, 217, 195), rgb(222, 205, 180), rgb(207, 185, 155), rgb(245, 205, 115));
         overflow-y: hidden;
         overflow-x: hidden;
     }
@@ -72,15 +72,34 @@
         width: 270px;
         height: 250px;
         border-top-left-radius: 20px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
+
     }
     .banner-2 {
         width: 300px;
         height: 250px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     .banner-3 {
         width: 300px;
         height: 250px;
         border-top-right-radius: 20px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     .logo-fassashion {
         position: relative;
@@ -91,6 +110,12 @@
         border-radius: 50%;
         top: -70px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     .welcome-fassashion-title-text {
         position: relative;
@@ -110,9 +135,27 @@
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         white-space: nowrap;
         letter-spacing: 5px;
-        -webkit-text-stroke: .5px;
-        -webkit-text-stroke-color: rgb(255, 255, 255);
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: rgb(0, 0, 0);
+        text-shadow: 0 0 10px rgb(222, 205, 180),
+                            0 0 20px rgb(222, 205, 180),
+                            0 0 40px rgb(222, 205, 180),
+                            0 0 80px rgb(222, 205, 180),
+                            0 0 120px rgb(222, 205, 180),
+                            0 0 200px rgb(222, 205, 180),
+                            0 0 300px rgb(222, 205, 180),
+                            0 0 400px rgb(222, 205, 180);
         font-weight: bold;
+        color: rgb(222, 205, 180);
+        user-select: none;
+    }
+    .welcome-fassashion-text::selection {
+        background: none;
+        color: none;
+    }
+    .welcome-fassashion-text::-moz-selection  {
+        background: none;
+        color: none;
     }
     .read-more {
         position: relative;
@@ -136,6 +179,10 @@
         -webkit-text-stroke-color: rgb(0, 0, 0);
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         white-space: nowrap;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     .read-more:hover {
         color: rgb(180, 180, 180);
@@ -163,6 +210,10 @@
         -webkit-text-stroke-color: rgb(0, 0, 0);
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         white-space: nowrap;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     .visit-our-website:hover {
         color: rgb(180, 180, 180);
@@ -193,7 +244,13 @@
         -moz-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -ms-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -o-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
-        animation: 15s container-elemen-1 ease infinite 2s, 2s container-elemen-picture-1 ease 0s;
+        animation: 15s container-elemen-1 ease infinite 2s, 2.25s container-elemen-picture-1 ease 0s;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     @keyframes container-elemen-1 {
     0% {
@@ -250,7 +307,13 @@
         -moz-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -ms-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -o-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
-        animation: 15s container-elemen-2 ease infinite 2.5s, 2s container-elemen-picture-2 ease .5s, .5s container-elemen-picture-2b ease 0s;
+        animation: 15s container-elemen-2 ease infinite 2.5s, 1.75s container-elemen-picture-2 ease .5s, .5s container-elemen-picture-2b ease 0s;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     @keyframes container-elemen-2 {
     0% {
@@ -312,7 +375,13 @@
         -moz-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -ms-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -o-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
-        animation: 15s container-elemen-3 ease infinite 3s, 2s container-elemen-picture-3 ease 1s, 1s container-elemen-picture-3b ease 0s;
+        animation: 15s container-elemen-3 ease infinite 3s, 2.50s container-elemen-picture-3 ease 1s, 1s container-elemen-picture-3b ease 0s;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     @keyframes container-elemen-3 {
     0% {
@@ -375,6 +444,12 @@
         -ms-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         -o-filter: drop-shadow(0px 16px 10px rgba(0, 0, 0, 0.6));
         animation: 15s container-elemen-4 ease infinite 3.5s, 2s container-elemen-picture-4 ease 1.5s, 1.5s container-elemen-picture-4b ease 0s;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
     }
     @keyframes container-elemen-4 {
     0% {
@@ -430,12 +505,12 @@
 <body>
     <div class="container-welcome">
         <div class="image-container">
-            <img src="{{asset('img/sepatu.jpeg')}}" alt="banner-1" class="banner-1">
-            <img src="{{asset('img/setelan.jpeg')}}" alt="banner-2" class="banner-2">
-            <img src="{{asset('img/tas.jpeg')}}" alt="banner-3" class="banner-3">
+            <img src="{{asset('img/sepatu.jpeg')}}" alt="banner-1" class="banner-1" id="banner-1" draggable="false">
+            <img src="{{asset('img/setelan.jpeg')}}" alt="banner-2" class="banner-2" id="banner-2" draggable="false">
+            <img src="{{asset('img/tas.jpeg')}}" alt="banner-3" class="banner-3" id="banner-3" draggable="false">
         </div>
         <div class="logo-fassashion">
-            <img src="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion" width="150px" height="150px">
+            <img src="{{asset('img/logo-fassashion.png')}}" alt="logo-fassashion" width="150px" height="150px" id="logo-fassashion" draggable="false">
         </div>
         <div class="welcome-fassashion-title-text">
         <h1 class="welcome-fassashion-text">Welcome to Fassashion</h1>
@@ -447,16 +522,16 @@
     </div>
     <div class="scroll-down-limit"></div>
     <div class="container-elemen-1">
-        <img src="{{asset('img/t-shirt-2.png')}}" alt="container" class="container-elemen-picture-1"></img>
+        <img src="{{asset('img/t-shirt-2.png')}}" alt="container" class="container-elemen-picture-1" id="container-elemen-picture-1" draggable="false"></img>
     </div>
     <div class="container-elemen-2">
-        <img src="{{asset('img/celana-2.png')}}" alt="container" class="container-elemen-picture-2"></img>
+        <img src="{{asset('img/celana-2.png')}}" alt="container" class="container-elemen-picture-2" id="container-elemen-picture-2" draggable="false"></img>
     </div>
     <div class="container-elemen-3">
-        <img src="{{asset('img/gelang-2.png')}}" alt="container" class="container-elemen-picture-3"></img>
+        <img src="{{asset('img/gelang-2.png')}}" alt="container" class="container-elemen-picture-3" id="container-elemen-picture-3" draggable="false"></img>
     </div>
     <div class="container-elemen-4">
-        <img src="{{asset('img/topi-2.png')}}" alt="container" class="container-elemen-picture-4"></img>
+        <img src="{{asset('img/topi-2.png')}}" alt="container" class="container-elemen-picture-4" id="container-elemen-picture-4" draggable="false"></img>
     </div>
     </div>
     </div>
@@ -495,5 +570,38 @@
         console.error('Tingkatkan Browser Anda. Browser Ini TIDAK Mendukung WebSocket Untuk Muat Ulang Langsung');
     }
     </script>
+    <script>
+    document.getElementById('banner-1').ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-2').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-3').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-4').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('container-elemen-picture-1').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('container-elemen-picture-2').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('container-elemen-picture-3').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('container-elemen-picture-4').
+    ondragstart = function() {
+        return false;
+    };
+</script>
 </body>
 </html>
