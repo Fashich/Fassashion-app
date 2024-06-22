@@ -65,10 +65,11 @@
     }
     }
     .image-container {
+        position: fixed;
         display: flex;
         flex-direction: row;
     }
-    .banner-1 {
+    .banner-1a {
         width: 270px;
         height: 250px;
         border-top-left-radius: 20px;
@@ -79,9 +80,97 @@
         -o-user-drag: none;
         -ms-user-drag: none;
         cursor: default;
+        opacity: 0;
+        animation: banner-1a 12s infinite 0s;
+        transition: opacity 1s ease-in-out;
     }
-    .banner-2 {
-        width: 300px;
+    @keyframes banner-1a {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-1b {
+        position: relative;
+        width: 270px;
+        height: 250px;
+        border-top-left-radius: 20px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
+        cursor: default;
+        top: -254.2px;
+        opacity: 0;
+        animation: banner-1b 12s infinite 4s;
+        transition: opacity 1s ease-in-out;
+    }
+    @keyframes banner-1b {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-1c {
+        position: relative;
+        width: 270px;
+        height: 250px;
+        border-top-left-radius: 20px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
+        cursor: default;
+        top: -508.34px;
+        opacity: 0;
+        animation: banner-1c 12s infinite 8s;
+        transition: opacity 1s ease-in-out;
+    }
+    @keyframes banner-1c {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-2a {
+        width: 275px;
         height: 250px;
         user-select: none;
         pointer-events: none;
@@ -90,9 +179,95 @@
         -o-user-drag: none;
         -ms-user-drag: none;
         cursor: default;
+        opacity: 1;
+        animation: banner-2a 12s infinite 5s;
+        transition: opacity 1s ease-in-out;
     }
-    .banner-3 {
-        width: 300px;
+    @keyframes banner-2a {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-2b {
+        position: relative;
+        width: 275px;
+        height: 250px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
+        cursor: default;
+        top: -254px;
+        opacity: 0;
+        animation: banner-2b 12s infinite 9s;
+        transition: opacity 1s ease-in-out;
+    }
+    @keyframes banner-2b {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-2c {
+        position: relative;
+        width: 275px;
+        height: 250px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
+        cursor: default;
+        top: -508px;
+        opacity: 0;
+        animation: banner-2c 12s infinite 1s;
+        transition: opacity 1s ease-in-out;
+    }
+    @keyframes banner-2c {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-3a {
+        width: 255px;
         height: 250px;
         border-top-right-radius: 20px;
         user-select: none;
@@ -102,6 +277,94 @@
         -o-user-drag: none;
         -ms-user-drag: none;
         cursor: default;
+        opacity: 1;
+        animation: banner-3a 12s infinite 6s;
+        transition: opacity 1s ease-in-out;
+    }
+    @keyframes banner-3a {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-3b {
+        position: relative;
+        width: 255px;
+        height: 250px;
+        border-top-right-radius: 20px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
+        cursor: default;
+        top: -254px;
+        opacity: 0;
+        animation: banner-3b 12s infinite 10s;
+        transition: opacity 1s ease-in-out;
+    }
+    @keyframes banner-3b {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    .banner-3c {
+        position: relative;
+        width: 255px;
+        height: 250px;
+        border-top-right-radius: 20px;
+        user-select: none;
+        pointer-events: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        -ms-user-drag: none;
+        cursor: default;
+        top: -508px;
+        opacity: 0;
+        animation: banner-3c 12s infinite 2s;
+        transition: opacity 1s ease-in-out;
+    }
+    @keyframes banner-3c {
+        0% {
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 1;
+        }
+        40% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
     }
     .logo-fassashion {
         position: relative;
@@ -110,7 +373,7 @@
         max-width: 150px;
         max-height: 150px;
         border-radius: 50%;
-        top: -70px;
+        top: 175px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
         user-select: none;
         pointer-events: none;
@@ -123,7 +386,7 @@
     .welcome-fassashion-title-text {
         position: relative;
         margin-left: 160px;
-        top: -75px;
+        top: 165px;
         background-image: url('img/background-kayu.jpg');
         max-width: 430px;
         height: 40px;
@@ -160,6 +423,10 @@
     .welcome-fassashion-text::-moz-selection  {
         background: none;
         color: none;
+    }
+    .container-button {
+        position: fixed;
+        margin-top: 250px;
     }
     .read-more {
         position: relative;
@@ -514,13 +781,19 @@
     <div class="container-welcome">
         <div class="image-container">
             <div class="image-display">
-            <img src="{{asset('img/sepatu.jpeg')}}" alt="banner-1" class="banner-1" id="banner-1" draggable="false">
+            <img src="{{asset('img/sepatu.jpeg')}}" alt="banner-1a" class="banner-1a" id="banner-1a" draggable="false">
+            <img src="{{asset('img/bros.jpeg')}}" alt="banner-1b" class="banner-1b" id="banner-1b" draggable="false">
+            <img src="{{asset('img/kalung.jpeg')}}" alt="banner-1c" class="banner-1c" id="banner-1c" draggable="false">
 </div>
 <div class="image-display">
-            <img src="{{asset('img/setelan.jpeg')}}" alt="banner-2" class="banner-2" id="banner-2" draggable="false">
+            <img src="{{asset('img/setelan.jpeg')}}" alt="banner-2a" class="banner-2a" id="banner-2a" draggable="false">
+            <img src="{{asset('img/baju-islamic-1.jpeg')}}" alt="banner-2b" class="banner-2b" id="banner-2b" draggable="false">
+            <img src="{{asset('img/baju-renang.jpeg')}}" alt="banner-2c" class="banner-2c" id="banner-2c" draggable="false">
             </div>
             <div class="image-display">
-            <img src="{{asset('img/tas.jpeg')}}" alt="banner-3" class="banner-3" id="banner-3" draggable="false">
+            <img src="{{asset('img/tas.jpeg')}}" alt="banner-3a" class="banner-3a" id="banner-3a" draggable="false">
+            <img src="{{asset('img/jas-coklat.jpeg')}}" alt="banner-3b" class="banner-3b" id="banner-3b" draggable="false">
+            <img src="{{asset('img/kemeja-putih-lengan-panjang.jpeg')}}" alt="banner-3c" class="banner-3c" id="banner-3c" draggable="false">
             </div>
         </div>
         <div class="logo-fassashion">
@@ -585,7 +858,8 @@
     }
     </script>
     <script>
-    document.getElementById('banner-1').ondragstart = function() {
+    document.getElementById('banner-1').
+    ondragstart = function() {
         return false;
     };
     document.getElementById('banner-2').
