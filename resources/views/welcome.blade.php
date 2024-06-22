@@ -858,19 +858,39 @@
     }
     </script>
     <script>
-    document.getElementById('banner-1').
+    document.getElementById('banner-1a').
     ondragstart = function() {
         return false;
     };
-    document.getElementById('banner-2').
+    document.getElementById('banner-1b').
     ondragstart = function() {
         return false;
     };
-    document.getElementById('banner-3').
+    document.getElementById('banner-1c').
     ondragstart = function() {
         return false;
     };
-    document.getElementById('banner-4').
+    document.getElementById('banner-2a').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-2b').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-2c').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-3a').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-3b').
+    ondragstart = function() {
+        return false;
+    };
+    document.getElementById('banner-3c').
     ondragstart = function() {
         return false;
     };
